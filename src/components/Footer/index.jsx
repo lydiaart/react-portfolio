@@ -8,8 +8,7 @@ return (
 				<div className="col-sm-7">
 					<div className="foot-copyright pull-left">
 						<p>
-							&copy; All Rights Reserved. Designed and Developed by
-							<a href="https://www.themesine.com">ThemeSINE</a>
+							&copy; {new Date().getFullYear()} by Lydia Loy. All Rights Reserved. 
 						</p>
 					</div>
 					{/* <!--/.foot-copyright--> */}
