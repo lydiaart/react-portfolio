@@ -15,7 +15,7 @@ function NavBar({setCurrentPage}){
 							<span className="icon-bar"></span>
 							<span className="icon-bar"></span>
 						</button>
-						<a className="navbar-brand" href="#">
+						<a className="navbar-brand" id="name" href="#">
 							Lydia Loy
 							{/* <!-- <img src="assets/images/logo/logo.png" alt="logo"> --> */}
 						</a>
