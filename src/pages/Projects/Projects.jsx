@@ -40,15 +40,20 @@ function Projects(){
 											<div className="item">
 												<img src="assets/images/project/project1.png" alt="portfolio image" />
 												<div className="isotope-overlay">
-													<a href="https://tbellenger.github.io/playlist/">
-														<span className="lnr lnr-link"></span>
+												<h3>
+											
+											Play List
+							
+									</h3>
+
+													<a href="https://flowingcityloy.github.io/playlist/" >
+													<i class="fas fa-link"></i><p class="project-title">LiveSite</p> 
 
 													</a>
-													<h3>
-														<a href="https://tbellenger.github.io/playlist/">
-															Play List
-														</a>
-													</h3>
+													<a href="https://github.com/flowingcityloy/playlist"><i class="fab fa-github-alt"></i>  <p class="project-title">GitHub</p> </a>
+													
+													
+													
 												</div>
                                                 {/* <!-- /.isotope-overlay --> */}
 											</div>

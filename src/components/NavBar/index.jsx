@@ -15,9 +15,8 @@ function NavBar({setCurrentPage}){
 							<span className="icon-bar"></span>
 							<span className="icon-bar"></span>
 						</button>
-						<a className="navbar-brand" id="name" href="#">
-							Lydia Loy
-							{/* <!-- <img src="assets/images/logo/logo.png" alt="logo"> --> */}
+						<a className="navbar-brand" id="name" href="#" onClick={()=>setCurrentPage("About")}>
+							<img src="assets/images/logo/logo.png" alt="logo" />
 						</a>
 					</div>
 					{/* <!--/.navbar-header --> */}
@@ -27,7 +26,7 @@ function NavBar({setCurrentPage}){
 						<ul className="nav navbar-nav navbar-right">
                         <li><a href="#" onClick={()=>setCurrentPage("Home")}>Home</a></li>
             <li><a href="#" onClick={()=>setCurrentPage("About")}>About</a></li>
-            <li><a href="#" onClick={()=>setCurrentPage("Projects")}>Projects</a></li>
+            <li><a href="#" onClick={()=>setCurrentPage("Projects")}>Portfolio</a></li>
             <li><a href="#" onClick={()=>setCurrentPage("Contact")}>Contact</a></li>
             <li><a href="assets/document/lydia_resume.pdf" target="_blank" >Resume</a></li>
 

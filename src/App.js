@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Header from './components/Header'
 
 function App() {
   // The hooks have two parameters. The first parameter is the hook variable has the data; The second parameter is the function to update the hook variable.
@@ -14,7 +15,7 @@ function App() {
   // To display current webpage
   const displayPage = () => {
     if (currentPage === "Home") {
-      return <Home />
+      return <Home setCurrentPage={setCurrentPage} />
     }
     else if (currentPage === "About") {
       return <About />
@@ -32,7 +33,9 @@ function App() {
   return (
     // Use an empty parant element to wrap all the children elements.
     <>
-  <NavBar setCurrentPage={setCurrentPage} />
+  <Header>
+      <NavBar setCurrentPage={setCurrentPage} />
+  </Header>
     {console.log(currentPage)}
 
     {displayPage()}

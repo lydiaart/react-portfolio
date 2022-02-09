@@ -3,6 +3,7 @@ function Contact(){
     return (
         <>
         {/* <!--contact start--> */}
+ 
 	<section className="contact">
 		<div className="container">
 			<div className="contact-details">
@@ -52,7 +53,7 @@ function Contact(){
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" className="form-control" id="firstname"
+													<input type="text" required className="form-control" id="firstname"
 														placeholder="First Name" name="firstname"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -60,7 +61,7 @@ function Contact(){
 											{/* <!--/.col--> */}
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" className="form-control" id="lastname"
+													<input type="text" required className="form-control" id="lastname"
 														placeholder="Last Name" name="laststname"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -71,7 +72,7 @@ function Contact(){
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="email" className="form-control" id="email"
+													<input type="email" required className="form-control" id="email"
 														placeholder="Email" name="email"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -90,7 +91,7 @@ function Contact(){
 										<div className="row">
 											<div className="col-sm-12">
 												<div className="form-group">
-													<textarea className="form-control" rows="7" id="comment"
+													<textarea required className="form-control" rows="7" id="comment"
 														placeholder="Message"></textarea>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -101,7 +102,7 @@ function Contact(){
 										<div className="row">
 											<div className="col-sm-12">
 												<div className="single-contact-btn pull-right">
-													<button className="contact-btn" type="button">send message</button>
+													<button className="contact-btn" type="submit">send message</button>
 												</div>
 												{/* <!--/.single-single-contact-btn--> */}
 											</div>
@@ -127,6 +128,7 @@ function Contact(){
 
 	</section>
 	{/* <!--/.contact--> */}
+ 
         </>
     )
 }

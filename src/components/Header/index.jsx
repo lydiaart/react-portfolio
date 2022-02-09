@@ -4,3 +4,5 @@ function Header(props) {
     {props.children}
     </>
 }
+
+export default Header;
