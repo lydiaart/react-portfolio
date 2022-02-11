@@ -15,7 +15,7 @@ function About(){
 									
 								</p>
 								<div className="project-btn">
-									<a href="#" className="project-view">learn more
+									<a href="#" className="project-view">View Projects
 									</a>
 								</div>
 							</div>
