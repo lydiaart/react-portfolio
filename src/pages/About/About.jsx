@@ -1,5 +1,5 @@
 import './About.css'
-function About(){
+function About({setCurrentPage}){
     return (
         <>
         	{/* <!--about-me start --> */}
@@ -15,7 +15,7 @@ function About(){
 									
 								</p>
 								<div className="project-btn">
-									<a href="#" className="project-view">View Projects
+									<a href="#" className="project-view" onClick={()=>setCurrentPage("Projects")}>View Projects
 									</a>
 								</div>
 							</div>

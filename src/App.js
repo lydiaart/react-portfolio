@@ -19,7 +19,7 @@ function App() {
       return <Home setCurrentPage={setCurrentPage} />
     }
     else if (currentPage === "About") {
-      return <About />
+      return <About setCurrentPage={setCurrentPage} />
     }
     else if (currentPage === "Projects") {
       return <Projects />
@@ -40,10 +40,10 @@ function App() {
 
       <Main>
 
-      </Main>
-      {console.log(currentPage)}
 
-      {displayPage()}
+        {displayPage()}
+      </Main>
+
 
       <Footer />
 
