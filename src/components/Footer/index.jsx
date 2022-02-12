@@ -8,7 +8,7 @@ function Footer() {
 						<div className="col-sm-12">
 							<div className="row">
 								<div className="foot-copyright pull-left col-sm-12">
-								<div className="col-sm-10">
+								<div className="col-sm-11">
 								<p>
 									&copy; {new Date().getFullYear()} by Lydia Loy. All Rights Reserved.
 								</p>
