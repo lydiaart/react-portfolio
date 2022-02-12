@@ -1,5 +1,17 @@
-import './Contact.css'
+import './Contact.css';
+import { useState } from "react";
+
 function Contact(){
+	const [state, setState]=useState({
+		firstname: "",
+		lastname: "",
+		email: "",
+		phone: ""
+	})
+	const handleClick = (event)=> {
+event.preventDefault()
+window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
+	}
     return (
         <>
         {/* <!--contact start--> */}
@@ -49,11 +61,11 @@ function Contact(){
 							<div className="single-contact-box">
 								<div className="contact-form">
 									<h3>Leave me a Massage Here</h3>
-									<form>
+									<form onSubmit={handleClick}>
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" required className="form-control" id="firstname"
+													<input type="text" onChange={(event)} required className="form-control" id="firstname"
 														placeholder="First Name" name="firstname"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -102,7 +114,7 @@ function Contact(){
 										<div className="row">
 											<div className="col-sm-12">
 												<div className="single-contact-btn pull-right">
-													<button className="contact-btn" type="submit">send message</button>
+													<button className="contact-btn" type="submit" >send message</button>
 												</div>
 												{/* <!--/.single-single-contact-btn--> */}
 											</div>
