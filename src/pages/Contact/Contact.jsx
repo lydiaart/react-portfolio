@@ -87,7 +87,7 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="email" required className="form-control" id="email"
+													<input type="email" value={state.email} onChange={(event)=>setState({...state, email:event.target.value})} required className="form-control" id="email"
 														placeholder="Email" name="email"/>
 												</div>
 												{/* <!--/.form-group--> */}
