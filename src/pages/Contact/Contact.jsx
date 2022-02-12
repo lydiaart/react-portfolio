@@ -95,7 +95,7 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 											{/* <!--/.col--> */}
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" className="form-control" id="phone"
+													<input type="text" value={state.phone} onChange={(event)=>setState({...state, phone:event.target.value})} className="form-control" id="phone"
 														placeholder="Phone" name="phone"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -106,7 +106,7 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 										<div className="row">
 											<div className="col-sm-12">
 												<div className="form-group">
-													<textarea required className="form-control" rows="7" id="comment"
+													<textarea value={state.message} onChange={(event)=>setState({...state, message:event.target.value})} required className="form-control" rows="7" id="comment"
 														placeholder="Message" name="message"></textarea>
 												</div>
 												{/* <!--/.form-group--> */}
