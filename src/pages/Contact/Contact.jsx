@@ -33,13 +33,14 @@ window.location.href=`mailto:flowingcityloy@gmail.com?subject=Contact from ${sta
 								<div className="contact-right">
 									<div className="contact-adress">
 										<div className="contact-office-address">
+
 											<h3>contact info</h3>
 
 											<div className="contact-online-address">
 												<div className="single-online-address">
-													<i className="fa fa-phone"></i>
+													<i className="fa fa-phone space"></i>
 
-													<span>(872) 301-6235</span>
+													<span className="space">(872) 301-6235</span>
 												</div>
 												{/* <!--/.single-online-address--> */}
 
