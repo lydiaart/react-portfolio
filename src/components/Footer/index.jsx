@@ -17,9 +17,9 @@ function Footer() {
 								</div>
 							
 
-								<div className="col-sm-1">	<a className="footer-icon" href="https://www.linkedin.com/in/lydia-l-79819589/"><i class="fab fa-linkedin"></i></a></div>
-								<div className="col-sm-1">	<a className="footer-icon" href="https://github.com/flowingcityloy"><i class="fa-brands fa-github"></i></a></div>
-								<div className="col-sm-1">	<a className="footer-icon" href="https://www.facebook.com/lydia.loy.336"><i class="fa-brands fa-facebook-square"></i></a></div>
+								<div className="col-sm-1">	<a className="footer-icon" href="https://www.linkedin.com/in/lydia-l-79819589/" target="_blank"><i className="fab fa-linkedin"></i></a></div>
+								<div className="col-sm-1">	<a className="footer-icon" href="https://github.com/flowingcityloy" target="_blank"><i className="fa-brands fa-github"></i></a></div>
+								<div className="col-sm-1">	<a className="footer-icon" href="https://www.facebook.com/lydia.loy.336" target="_blank"><i className="fa-brands fa-facebook-square"></i></a></div>
 								</div>
 							</div>
 							
