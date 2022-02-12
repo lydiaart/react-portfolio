@@ -6,7 +6,8 @@ function Contact(){
 		firstname: "",
 		lastname: "",
 		email: "",
-		phone: ""
+		phone: "",
+		message: ""
 	})
 	const handleClick = (event)=> {
 event.preventDefault()
@@ -65,7 +66,9 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" onChange={(event)} required className="form-control" id="firstname"
+													<input type="text" value={state.firstname} onChange={(event)=>setState({
+														...state,
+														 firstname: event.target.value})} required className="form-control" id="firstname"
 														placeholder="First Name" name="firstname"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -73,7 +76,7 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 											{/* <!--/.col--> */}
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="text" required className="form-control" id="lastname"
+													<input type="text" value={state.lastname} onChange={(event)=>setState({...state, lastname:event.target.value})} required className="form-control" id="lastname"
 														placeholder="Last Name" name="laststname"/>
 												</div>
 												{/* <!--/.form-group--> */}
@@ -104,7 +107,7 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 											<div className="col-sm-12">
 												<div className="form-group">
 													<textarea required className="form-control" rows="7" id="comment"
-														placeholder="Message"></textarea>
+														placeholder="Message" name="message"></textarea>
 												</div>
 												{/* <!--/.form-group--> */}
 											</div>
