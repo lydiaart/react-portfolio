@@ -1,3 +1,5 @@
+import "./index.css"
+
 function Footer() {
 	return (
 		<>
@@ -7,17 +9,17 @@ function Footer() {
 					<div className="row">
 						<div className="col-sm-12">
 							<div className="row">
-								<div className="foot-copyright pull-left col-sm-12">
-								<div className="col-sm-11">
+								<div className="foot-copyright pull-left col-sm-10">
+								<div className="col-sm-8">
 								<p>
 									&copy; {new Date().getFullYear()} by Lydia Loy. All Rights Reserved.
 								</p>
 								</div>
 							
 
-								<div className="col-sm-1">	<a href="https://www.linkedin.com/in/lydia-l-79819589/"><i class="fab fa-linkedin"></i></a></div>
-								<div className="col-sm-1">	<a href="https://github.com/flowingcityloy"><i class="fa-brands fa-github"></i></a></div>
-								
+								<div className="col-sm-1">	<a className="footer-icon" href="https://www.linkedin.com/in/lydia-l-79819589/"><i class="fab fa-linkedin"></i></a></div>
+								<div className="col-sm-1">	<a className="footer-icon" href="https://github.com/flowingcityloy"><i class="fa-brands fa-github"></i></a></div>
+								<div className="col-sm-1">	<a className="footer-icon" href="https://www.facebook.com/lydia.loy.336"><i class="fa-brands fa-facebook-square"></i></a></div>
 								</div>
 							</div>
 							
