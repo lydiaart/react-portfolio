@@ -1,5 +1,6 @@
-import './Contact.css';
+ 
 import { useState } from "react";
+import "./Contact.css"
 
 function Contact(){
 	const [state, setState]=useState({
@@ -11,7 +12,8 @@ function Contact(){
 	})
 	const handleClick = (event)=> {
 event.preventDefault()
-window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
+console.log(state)
+window.location.href=`mailto:flowingcityloy@gmail.com?subject=Contact from ${state.firstname} ${state.lastname}&body=${state.message}`
 	}
     return (
         <>
@@ -87,8 +89,8 @@ window.location.href="mailto:flowingcityloy@gmail.com?subject=contact from "
 										<div className="row">
 											<div className="col-sm-6 col-xs-12">
 												<div className="form-group">
-													<input type="email" value={state.email} onChange={(event)=>setState({...state, email:event.target.value})} required className="form-control" id="email"
-														placeholder="Email" name="email"/>
+												<input type="email" value={state.email} onChange={(event)=>setState({...state, email:event.target.value})} className="form-control" id="email"
+														placeholder="email" name="email"/>
 												</div>
 												{/* <!--/.form-group--> */}
 											</div>
