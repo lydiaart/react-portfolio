@@ -30,7 +30,7 @@ function Projects() {
 													</h3>
 													<br />
 
-													<a href="https://github.com/flowingcityloy/playlist" target="_blank">
+													<a href="https://github.com/flowingcityloy/Emergency-Center" target="_blank">
 
 														<i className="fab fa-github-alt"></i>
 
