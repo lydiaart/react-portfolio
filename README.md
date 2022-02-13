@@ -38,7 +38,7 @@ The following demonstrates the web application's appearance and functionality:
 
 <img src="./public/assets/images/Start New Journey.gif" width="600" height="" />
 
-For a clearer video, please click the following link.
+For a clearer video, please click the following link.<br />
 [Link](https://watch.screencastify.com/v/LOGX3c1UP4XRZOMnMCuZ1)
 
 
