@@ -18,7 +18,7 @@ function Projects() {
 									<div className="row">
 										<div className=" col-md-12 col-sm-12">
 											<div className="item big-height">
-												<img className="w-100" src="assets/images/project/project2.png" alt="portfolio image" />
+												<img className="photos w-100" src="assets/images/project/project2.png" alt="portfolio image" />
 												<div className="isotope-overlay">
 													<a href="https://emergency-center.herokuapp.com/" target="_blank">
 														<span className="lnr lnr-link"></span>

@@ -1,6 +1,12 @@
 .project-title {
     font-size: small;
 }
-img{
-    width:100% !important;
+
+@media screen and (max-width: 500px){
+
+   
+    .isotope .item img{
+        width:100% !important;
+       
+    }
 }
