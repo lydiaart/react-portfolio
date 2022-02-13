@@ -141,6 +141,8 @@
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 107%;}
 	.carousel-control.right {left:20%;}
 	.foot-menu.pull-right {float: left!important; margin-top: 20px;}
+
+	.isotope .item.big-height {height: 200px;}
 	
 }/*max-width:540px*/
 @media screen and (max-width: 480px){
