@@ -45,7 +45,7 @@ For a clearer video, please click the following link.
 
 ## Websites
 [Repository](https://github.com/flowingcityloy/react-portfolio)<br />
-[Live site](https://emergency-center.herokuapp.com/)
+[Live site](https://flowingcityloy.github.io/react-portfolio/)
 
 
 
