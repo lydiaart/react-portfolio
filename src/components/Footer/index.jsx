@@ -3,7 +3,7 @@ import "./index.css"
 function Footer() {
 	return (
 		<>
-			{/* <!-- footer-copyright start --> */}
+			{/* <!--footer-copyright start --> */}
 			<footer className="footer-copyright">
 				<div className="container">
 					<div className="row">
