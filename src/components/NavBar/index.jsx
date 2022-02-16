@@ -5,9 +5,8 @@ function NavBar({setCurrentPage}){
         <>
         	<section id="menu">
 		<div className="container">
-		<a className="navbar-brand" id="name" href="#" onClick={()=>setCurrentPage("About")}>
-							<img src="assets/images/logo/logo.png" alt="logo" />
-						</a>
+			 
+		<a className="navbar-brand" id="name" onClick={()=>setCurrentPage("About")} > <img src="assets/images/logo/logo.png" alt="logo" />   </a>
 			<div className="menubar">
 		
 				<nav className="navbar navbar-default">

@@ -12,8 +12,8 @@ function About({setCurrentPage}){
 							<div className="about-us-txt">
 								<h2>about me</h2>
 								<p>
-									I wish to show you as cherry blossom, but you might see me as cactus.
-									I wish to show you as a lion, but you might see me as a panda.
+									I wish to show you as cherry blossom, but you might see me as cactus.<br/>
+									I wish to show you as a lion, but you might see me as a panda.<br/>
 									I wish to be the stream of water, gently carry down the spring flowing towards the ocean.
 								</p>
 								<div className="project-btn">
