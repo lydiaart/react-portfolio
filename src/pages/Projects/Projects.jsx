@@ -1,3 +1,5 @@
+import Work from '../../components/Work';
+import WorkData from '../../data/work.json'
 function Projects() {
 	return (
 		<>
@@ -18,24 +20,7 @@ function Projects() {
 									<div className="row">
 										<div className=" col-md-12 col-sm-12">
 											<div className="item big-height">
-												<img className="photos w-100" src="assets/images/project/project2.png" alt="portfolio image" />
-												<div className="isotope-overlay">
-													<a href="https://emergency-center.herokuapp.com/" target="_blank">
-														<span className="lnr lnr-link"></span>
-													</a>
-													<h3>
-														<a href="https://emergency-center.herokuapp.com/" target="_blank">
-															Emergency Center
-														</a>
-													</h3>
-													<br />
-
-													<a href="https://github.com/flowingcityloy/Emergency-Center" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-												</div>
+												<Work WorkData={WorkData[0]} />
 												{/* <!-- /.isotope-overlay --> */}
 											</div>
 											{/* <!-- /.item --> */}
@@ -45,24 +30,7 @@ function Projects() {
 											<div className="row">
 												<div className="col-sm-12 col-xs-12">
 													<div className="item big-height">
-														<img src="assets/images/project/project1.png" alt="portfolio image" />
-														<div className="isotope-overlay">
-													<a href="https://flowingcityloy.github.io/playlist/" target="_blank">
-														<span className="lnr lnr-link"></span>
-													</a>
-													<h3>
-														<a href="https://github.com/flowingcityloy/playlist" target="_blank">
-															Play List
-														</a>
-													</h3>
-													<br />
-
-													<a href="https://github.com/flowingcityloy/playlist" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-												</div>
+														<Work WorkData={WorkData[1]} />
 														{/* <!-- /.isotope-overlay --> */}
 													</div>
 													{/* <!-- /.item --> */}
@@ -70,24 +38,8 @@ function Projects() {
 												{/* <!-- /.col --> */}
 												<div className="col-sm-6 col-xs-12">
 													<div className="item">
-														<img src="assets/images/project/project3.png" alt="portfolio image" />
-														<div className="isotope-overlay">
-															<a href="https://flowingcityloy.github.io/Work-Day-Scheduler/" target="_blank">
-																<span className="lnr lnr-link"></span>
-															</a>
-															<h3>
-																<a href="https://flowingcityloy.github.io/Work-Day-Scheduler/" target="_blank">
-																	Work Day Scheduler
-																</a>
-															</h3>
-															<br />
+														<Work WorkData={WorkData[2]} />
 
-													<a href="https://github.com/flowingcityloy/Work-Day-Scheduler" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-														</div>
 														{/* <!-- /.isotope-overlay --> */}
 													</div>
 													{/* <!-- /.item --> */}
@@ -96,24 +48,7 @@ function Projects() {
 
 												<div className="col-sm-6 col-xs-12">
 													<div className="item">
-														<img src="assets/images/project/project6.png" alt="portfolio image" />
-														<div className="isotope-overlay">
-															<a href="https://flowingcityloy.github.io/Weather-Dashboard/" target="_blank">
-																<span className="lnr lnr-link"></span>
-															</a>
-															<h3>
-																<a href="https://flowingcityloy.github.io/Weather-Dashboard/" target="_blank">
-																	Weather Dashboard
-																</a>
-															</h3>
-															<br />
-
-													<a href="https://github.com/flowingcityloy/Weather-Dashboard" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-														</div>
+														<Work WorkData={WorkData[3]} />
 														{/* <!-- /.isotope-overlay --> */}
 													</div>
 													{/* <!-- /.item --> */}
@@ -124,25 +59,7 @@ function Projects() {
 											<div className="row">
 												<div className="col-sm-6 col-xs-12">
 													<div className="item">
-														<img src="assets/images/project/project4.png" alt="portfolio image" />
-														<div className="isotope-overlay">
-															<a href="https://flowingcityloy.github.io/Coding-Quiz-Challenge/" target="_blank">
-																<span className="lnr lnr-link"></span>
-
-															</a>
-															<h3>
-																<a href="https://flowingcityloy.github.io/Coding-Quiz-Challenge/" target="_blank">
-																	Coding Quiz Challenge
-																</a>
-															</h3>
-															<br />
-
-													<a href="https://github.com/flowingcityloy/Coding-Quiz-Challenge" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-														</div>
+														<Work WorkData={WorkData[4]} />
 														{/* <!-- /.isotope-overlay --> */}
 													</div>
 													{/* <!-- /.item --> */}
@@ -150,25 +67,7 @@ function Projects() {
 												{/* <!-- /.col --> */}
 												<div className="col-sm-6 col-xs-12">
 													<div className="item">
-														<img src="assets/images/project/project5.png" alt="portfolio image" />
-														<div className="isotope-overlay">
-															<a href="https://flowingcityloy.github.io/Password-Generator/" target="_blank">
-																<span className="lnr lnr-link"></span>
-
-															</a>
-															<h3>
-																<a href="https://flowingcityloy.github.io/Password-Generator/" target="_blank">
-																	Password Generator
-																</a>
-															</h3>
-															<br />
-
-													<a href="https://github.com/flowingcityloy/Password-Generator" target="_blank">
-
-														<i className="fab fa-github-alt"></i>
-
-													</a>
-														</div>
+														<Work WorkData={WorkData[5]} />
 														{/* <!-- /.isotope-overlay --> */}
 													</div>
 													{/* <!--/.item --> */}
