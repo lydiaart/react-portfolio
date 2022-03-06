@@ -40,5 +40,12 @@
         "live_link": "https://flowingcityloy.github.io/Password-Generator/",
         "title": "Password Generator",
         "github":"https://github.com/flowingcityloy/Password-Generator"
+    },
+    {
+        "image_path": "assets/images/project/project7.png" , 
+        "alt": "portfolio image",
+        "live_link": "https://natural-path.herokuapp.com/",
+        "title": "Natural Path",
+        "github":"https://github.com/flowingcityloy/Natural-Path"
     }
 ]

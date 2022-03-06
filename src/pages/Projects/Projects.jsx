@@ -20,12 +20,19 @@ function Projects() {
 									<div className="row">
 										<div className=" col-md-12 col-sm-12">
 											<div className="item big-height">
-												<Work WorkData={WorkData[0]} />
+												<Work WorkData={WorkData[7]} />
 												{/* <!-- /.isotope-overlay --> */}
 											</div>
 											{/* <!-- /.item --> */}
 										</div>
 										{/* <!-- /.col --> */}
+										<div className=" col-md-12 col-sm-12">
+											<div className="item big-height">
+												<Work WorkData={WorkData[0]} />
+												{/* <!-- /.isotope-overlay --> */}
+											</div>
+											{/* <!-- /.item --> */}
+										</div>
 										<div className="col-md-12 col-sm-12">
 											<div className="row">
 												<div className="col-sm-12 col-xs-12">
