@@ -2,7 +2,7 @@
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
- 
+
 
 ## Description
 Lydia's react portfolio. You will find her brief introduction, recent projects, contact information and resume.

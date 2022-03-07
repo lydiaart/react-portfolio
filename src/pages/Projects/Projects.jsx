@@ -20,7 +20,7 @@ function Projects() {
 									<div className="row">
 										<div className=" col-md-12 col-sm-12">
 											<div className="item big-height">
-												<Work WorkData={WorkData[7]} />
+												<Work WorkData={WorkData[6]} />
 												{/* <!-- /.isotope-overlay --> */}
 											</div>
 											{/* <!-- /.item --> */}
